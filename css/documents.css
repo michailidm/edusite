@@ -1,0 +1,21 @@
+body {
+    background-color: beige;
+}
+
+#content {
+    display: table;
+}
+
+nav {
+    display: table-cell;
+}
+
+main {
+    display: table-cell;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+header {
+    text-align: center;
+}

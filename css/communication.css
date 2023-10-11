@@ -1,0 +1,55 @@
+body {
+    background-color: beige;
+}
+
+#content {
+    display: table;
+}
+
+nav {
+    display: table-cell;
+}
+
+main {
+    display: table-cell;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    padding: 10px;
+}
+
+label {
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    width: 20rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.error {
+    color:red;
+}
+
+div[id="email-sent-successfully-message"] {
+    background-color: chartreuse;
+}
